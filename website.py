@@ -18,11 +18,12 @@ if st.session_state.count != 0:
 html_content= """
 <h1> This is a title </h1>
 <p> This is my first website </p>
-
-<img src= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fnotepad_1584889&psig=AOvVaw08OT-VIMrFPKSMCMiboqs1&ust=1725564872581000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC39qiFqogDFQAAAAAdAAAAABAE/>
 """
 st.markdown(html_content, unsafe_allow_html =True)
 
+user_input= st.text.input()
+if user user_input:
+  st.write(user_input)
 
 
 
