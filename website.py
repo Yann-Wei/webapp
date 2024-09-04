@@ -22,7 +22,7 @@ html_content= """
 st.markdown(html_content, unsafe_allow_html =True)
 
 user_input= st.text.input()
-if user user_input:
+if user_input:
   st.write(user_input)
 
 
