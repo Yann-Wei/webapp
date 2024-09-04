@@ -24,12 +24,13 @@ st.markdown(html_content, unsafe_allow_html =True)
 user_input= st.text_area("encrypt message:")
 length= len(user_input)
 a=0
+b=length
 while a<length:
   if length%2 ==0:
-    st.write((a+100)//2, end="")
+    st.write((b+100)//2, end="")
     a+=1
   elif length%2 !=0:
-    st.write((a+69)//2, end="")
+    st.write((b+69)//2, end="")
     a+=1
   
   
