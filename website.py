@@ -21,8 +21,18 @@ html_content= """
 """
 st.markdown(html_content, unsafe_allow_html =True)
 
-user_input= st.text_area("")
-st.write(user_input)
+user_input= st.text_area("encrypt message:")
+length= len(user_input)
+a=0
+while a<length:
+  if length%2 =0:
+    st.write(user_input[(a+1)//2])
+    a+=1
+  elif length%2 !=0:
+    st.write(user_input[(a+3)//2])
+  
+  
+
 
 
 
