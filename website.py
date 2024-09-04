@@ -29,9 +29,11 @@ while a<length:
   if length%2 ==0:
     st.write((b+100)//2, end="")
     a+=1
+    b+=3
   elif length%2 !=0:
     st.write((b+69)//2, end="")
     a+=1
+    b*=3
   
   
 
