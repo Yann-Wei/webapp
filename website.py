@@ -26,7 +26,7 @@ length= len(user_input)
 a=0
 while a<length:
   if length%2 ==0:
-    st.write((a+1)//2, end="")
+    st.write((a+100)//2, end="")
     a+=1
   elif length%2 !=0:
     st.write((a+3)//2, end="")
