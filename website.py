@@ -13,8 +13,8 @@ if st.button("Do you want an euro?"):
   st.session_state.count += 1
   
 if st.session_state.count != 0:
-  st.write(st.session_state.count, end="")
-  st.write("€")
+  st.write(st.session_state.count,"€")
+  
 
 
   
