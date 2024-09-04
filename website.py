@@ -25,7 +25,7 @@ user_input= st.text_area("encrypt message:")
 length= len(user_input)
 a=0
 while a<length:
-  if length%2 =0:
+  if length%2 ==0:
     st.write(user_input[(a+1)//2])
     a+=1
   elif length%2 !=0:
