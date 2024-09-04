@@ -16,7 +16,7 @@ if st.session_state.count != 0:
   st.write(st.session_state.count,"€")
 
 html_content= """
-<h1> This is a title h/1>
+<h1> This is a title </h1>
 """
 st.markdown(html_content, unsafe_allow_html =True)
   
