@@ -12,7 +12,7 @@ if 'count' not in st.session_state:
 if st.button("Click me"):
   st.session_state.count += 1
   
-if st.session_state.count != 0
+if st.session_state.count != 0:
   st.write(st.session_state.count)
   
   
