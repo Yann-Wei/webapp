@@ -29,7 +29,8 @@ while a<length:
     st.write((a+100)//2, end="")
     a+=1
   elif length%2 !=0:
-    st.write((a+3)//2, end="")
+    st.write((a+69)//2, end="")
+    a+=1
   
   
 
