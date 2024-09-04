@@ -9,11 +9,14 @@ st.write("[Learn More> ](https://docs.streamlit.io/develop/quick-reference/cheat
 if 'count' not in st.session_state:
   st.session_state.count = 0
 
-if st.button("Click me"):
+if st.button("Do you want an euro?"):
   st.session_state.count += 1
   
 if st.session_state.count != 0:
-  st.write(st.session_state.count)
+  st.write(st.session_state.count, end="")
+  st.write("€")
+
+
   
   
   
